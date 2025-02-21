@@ -6,7 +6,7 @@ import { router } from "./routes/routes";
 config(); // dotenv
 
 const app = express();
-const PORT = process.env.PORT ?? 443;
+const PORT = process.env.PORT ?? 10000;
 
 //middlewares
 app.use(limiter);
